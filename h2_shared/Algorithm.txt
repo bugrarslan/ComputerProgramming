@@ -1,0 +1,8 @@
+1. Başla
+2. Sum=0 değişkeni oluşturulsun.
+3. kullanıcıdan Number değişkeni istensin.
+4. Number değişkeni -1 e eşitse 7. adıma gitsin, değilse 5. adıma gitsin.
+5. Sum = Sum + Number işlemi yapılsın.
+6. 3. adıma gitsin.
+7. Sum değişkeni kullanıcıya verilsin.
+8. dur
