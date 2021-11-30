@@ -37,7 +37,7 @@ int main()
     char str[20] = "Program";
     char str2[20] = {'P', 'r', 'o', 'g', 'r', 'a', 'm', '\0'};
 
-    printf("%s\n", strlen(str));
+    printf("%i\n", strlen(str));
     printf("Length of string b = %zu \n", strlen(str2));
 
     return 0;

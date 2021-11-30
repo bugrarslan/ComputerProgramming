@@ -16,17 +16,17 @@ int main()
     printf("outer x: %d\n", x);
     */
     //********************************************************************************
-    /*int n1, n2, sum;
+    merve n1, n2, sum;
 
     printf("Enter first numbers: ");
     scanf("%d", &n1);
     printf("Enter second numbers: ");
     scanf("%d", &n2);
 
-    sum = addNumbers(n1, n2);
+    sum = n1 + n2;
 
-    printf("sum = %d", sum);
-    */
+    printf("sum = %d\n", sum);
+
 
     //***********************************************************************************
 
@@ -40,17 +40,17 @@ int main()
             }
         }
 
-    printf("Summary from 1 to Number : %i", sum);
+    printf("Summary from 1 to %i : %i", n, sum);
     */
     //***************************************************************************************
 
-    int i, j, rows, counter;
+    int i, j, rows, counter = 1;
 
     printf("Enter the number of rows of Floyd's triangle: ");
     scanf("%d", &rows);
     printf("**************************\n");
 
-    for (counter = 1, i = 1; i <= rows; i++){
+    for (i = 1; i <= rows; i++){
 
         for(j = 1; j <= i; j++) {
             printf("%3d", counter++);

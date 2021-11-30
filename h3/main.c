@@ -4,16 +4,16 @@
 int main()
 {
 
-    /*
+
     int answer, result;
 
     answer = 100;
     result = answer - 10;
 
     printf("The result is %i\n", result + 5);
-    */
 
-    /*
+
+
     int integerVar = 100;
     float floatingVar = 331.79;
     double doubleVar = 8.44e+11;
@@ -26,7 +26,7 @@ int main()
     printf("doubleVar = %g\n", doubleVar);
     printf("charVar = %c\n", charVar);
     printf("boolVar = %i\n", boolVar);
-    */
+
 
     int a = 100;
     int b = 2;
