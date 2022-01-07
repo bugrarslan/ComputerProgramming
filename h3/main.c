@@ -4,7 +4,7 @@
 int main()
 {
 
-
+    /*
     int answer, result;
 
     answer = 100;
@@ -12,8 +12,9 @@ int main()
 
     printf("The result is %i\n", result + 5);
 
-
-
+    */
+    //**************************************************
+    /*
     int integerVar = 100;
     float floatingVar = 331.79;
     double doubleVar = 8.44e+11;
@@ -26,8 +27,9 @@ int main()
     printf("doubleVar = %g\n", doubleVar);
     printf("charVar = %c\n", charVar);
     printf("boolVar = %i\n", boolVar);
-
-
+    */
+    //***************************************************
+    /*
     int a = 100;
     int b = 2;
     int c = 25;
@@ -47,17 +49,41 @@ int main()
     printf("a + b * c = %i\n", result);
 
     printf("a + b + c * d = %i\n", a + b + c * d);
+    */
+    //**********************************************************************
+    /*
+    char character;
+    int number1, number2;
+    while(1)
+    {
+       printf("yapmak istediginiz islemi giriniz: t: toplama, c: cikartma, ca: carpma, b: bolme\n");
 
-    printf("yapmak istediðiniz iþlemi giriniz: t: toplama, c: çýkarma, ca: çarpma, b: bölme\n");
+        scanf("%c", &character);
 
-    char character = getchar();
+        printf("lutfen sayilari giriniz: \n");
 
-    printf("lütfen sayýlarý giriniz: \n");
+        scanf("%d %d", &number1, &number2);
 
-    int number1 = getchar();
-    int number2 = getchar();
+        switch(character)
+        {
+            case 't':
+                printf("toplama sonucu: %d \n", number1 + number2);
+                break;
+            case 'c':
+                printf("cÄ±kartma sonucu: %d \n", number1 - number2);
+                break;
+            case 'ca':
+                printf("carpma sonucu: %d \n", number1 * number2);
+                break;
+            case 'b':
+                printf("bolme sonucu: %d \n", number1 / number2);
+                break;
+            default:
+                printf("yanlis operasyon karakteri girdiniz \n");
+                break;
+        }
 
-
-
+    }
+    */
     return 0;
 }

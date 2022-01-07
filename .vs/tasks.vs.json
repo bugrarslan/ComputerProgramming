@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-main",
+      "appliesTo": "h5_shared/main.c",
+      "type": "launch"
+    }
+  ]
+}

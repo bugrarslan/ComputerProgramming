@@ -5,8 +5,8 @@ int main()
 {
     int a = 3, b, c;
 
-    c = ++a; // arttır değişkene ata
-    b = c--; // değişkene ata azalt
+    c = ++a; // arttir degiskene ata
+    b = c--; // degiskene ata azalt
 
     printf("%d %d %d", a, b, c);
 

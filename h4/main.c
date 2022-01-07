@@ -3,7 +3,8 @@
 
 int main()
 {
-    /*int x;
+    /*
+    int x;
     x = 10;
 
     if(x == 10) {
@@ -16,7 +17,8 @@ int main()
     printf("outer x: %d\n", x);
     */
     //********************************************************************************
-    merve n1, n2, sum;
+    /*
+    int n1, n2, sum;
 
     printf("Enter first numbers: ");
     scanf("%d", &n1);
@@ -26,11 +28,10 @@ int main()
     sum = n1 + n2;
 
     printf("sum = %d\n", sum);
-
-
+    */
     //***********************************************************************************
-
-    /*int n, sum = 0;
+    /*
+    int n, sum = 0;
     printf("Enter a number: ");
     scanf("%d", &n);
 
@@ -43,7 +44,7 @@ int main()
     printf("Summary from 1 to %i : %i", n, sum);
     */
     //***************************************************************************************
-
+    /*
     int i, j, rows, counter = 1;
 
     printf("Enter the number of rows of Floyd's triangle: ");
@@ -57,24 +58,21 @@ int main()
         }
         printf("\n");
     }
-
-    return 0;
-
-    /*printf("Second way\n: ");
+    */
+    //***************************************************************************************
+    /*
+    printf("Second way\n: ");
     sum = n * (n + 1) / 2;
 
     printf("sum");
     */
 
-
-
-
-
+    return 0;
 }
 
-/*int addNumbers(int a, int b) {
+int addNumbers(int a, int b) {
     int result;
     result = a + b;
     return result;
 
-}*/
+}
